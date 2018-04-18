@@ -20,12 +20,4 @@ const runTest = (testName, fn) => {
   console.log(success ? "SUCCESS" : "FAIL");
 };
 
-///////////////////////////
-
-// hard_merge_dicts
-
-function f(a, b) {
-  return Object.assign(a, b);
-}
-
-runTest("hard_merge_dicts", f);
+module.exports = runTest;
