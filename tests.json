@@ -65,6 +65,8 @@
     [["(())()"], true],
     [[")("], false],
     [["())("], false],
+    [["())"], false],
+    [[")()"], false],
     [[""], true]
   ],
   "easy_contains": [
