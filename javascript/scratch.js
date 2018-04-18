@@ -2,10 +2,10 @@ const runTest = require("./run-test");
 
 // START FUNCTION HERE
 
-function f(a, b) {
+function f(s) {
   return null;
 }
 
 // END FUNCTION
 
-runTest("hard_merge_dicts", f);
+runTest("med_splice_stars", f);
