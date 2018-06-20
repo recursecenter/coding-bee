@@ -1,6 +1,4 @@
-
-Coding Bee
-==========
+# Coding Bee
 
 Jupyter notebook for MCing the [Recurse Center](https://www.recurse.com/) Coding Bee :bee:
 
@@ -9,7 +7,8 @@ Problems live at the top of the notebook. Test cases live in tests.json.
 ### Install
 
 ```bash
-python3 -m venv .
+python3 -m venv .venv
+. .venv/bin/activate.fish # or .sh or whatever your shell is
 pip3 install -r requirements.txt
 
 cd javascript
@@ -32,6 +31,6 @@ If you want to run JavaScript against test cases, you can paste the function int
 
 ### Credits
 
-*   Original project, problems, and test cases by [Brian Lee](https://github.com/brilee)
-*   Updates and additional problems for Spring 2018 by [Peter Coles](https://github.com/mrcoles)
-*   Made possible by the [Recurse Center community](https://www.recurse.com/)
+- Original project, problems, and test cases by [Brian Lee](https://github.com/brilee)
+- Updates and additional problems for Spring 2018 by [Peter Coles](https://github.com/mrcoles)
+- Made possible by the [Recurse Center community](https://www.recurse.com/)
