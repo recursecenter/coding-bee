@@ -31,7 +31,7 @@ Run other languages in https://repl.it/
 
 If you want to run JavaScript against test cases, you can paste the function into `javascript/scratch.js` and run it there. (TODO: this could benefit from something more slick!)
 
-### Writing new problems
+### Write new problems
 
 You can write new problems for the Coding Bee via the following two steps. NOTE: in the top of the Jupyter Notebook it runs `administer.validate_all()` to verify that all functions and tests are working properly.
 
