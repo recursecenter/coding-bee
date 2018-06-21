@@ -2,12 +2,14 @@
 
 Jupyter notebook for MCing the [Recurse Center](https://www.recurse.com/) Coding Bee :bee:
 
-Problems live at the top of the notebook. Test cases live in tests.json.
+Problems live inside problems/[easy|medium|hard].py. Test cases live in tests.json.
+
+Questions are auto-generated from the docstrings of the problems and validated against tests.json.
 
 ### Install
 
 ```bash
-python3 -m venv .venv
+python3 -m venv .venv # requires Python >= 3.6
 . .venv/bin/activate.fish # or .sh or whatever your shell is
 pip3 install -r requirements.txt
 
@@ -17,7 +19,7 @@ yarn install
 
 ### Run
 
-Start the notebook locally via:
+Start the notebook locally via the following command and open "coding_bee.ipynb":
 
 ```bash
 jupyter notebook

@@ -38,7 +38,11 @@
   "med_fib": [[[0], 0], [[1], 1], [[5], 5], [[7], 13]],
   "med_factorial": [[[0], 1], [[1], 1], [[5], 120]],
   "med_product": [[[[0, 5, 7]], 0], [[[1]], 1], [[[]], 1]],
-  "med_leftpad": [[["abc", 5], "  abc"], [["abc", 3], "abc"], [["", 5], "     "]],
+  "med_leftpad": [
+    [["abc", 5], "  abc"],
+    [["abc", 3], "abc"],
+    [["", 5], "     "]
+  ],
   "hard_sort_magnitude": [
     [[[1, 2, 3]], [1, 2, 3]],
     [[[3, 2, 1]], [1, 2, 3]],
@@ -116,7 +120,11 @@
     [["b"], true],
     [["abcdefghijklmnmlkjihgfedcba"], true]
   ],
-  "hard_most_common_letter": [[["aaabbc"], "a"], [["ababac"], "a"], [["a"], "a"]],
+  "hard_most_common_letter": [
+    [["aaabbc"], "a"],
+    [["ababac"], "a"],
+    [["a"], "a"]
+  ],
   "hard_fizzbuzz": [
     [
       [],
