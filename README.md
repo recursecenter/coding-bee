@@ -43,7 +43,7 @@ For example in `problems/easy.py`:
 
 ```python3
 def easy_len3(a):
-    """Takes a list and return True if its length is 3, otherwise False"""
+    """Takes a list of integers and return True if its length is 3, otherwise False"""
     return len(a) == 3
 ```
 
